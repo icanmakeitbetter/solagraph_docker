@@ -1,4 +1,4 @@
-FROM ruby:2.7.7-buster
+FROM ruby:2.7.7-alpine3.16
 
 ENV GEM_HOME=/usr/local/bundle
 
