@@ -1,4 +1,4 @@
-FROM ruby:2.7.7-alpine
+FROM ruby:2.7-alpine
 
 RUN	apk add --no-cache --virtual .ruby-builddeps \
 		g++ \
